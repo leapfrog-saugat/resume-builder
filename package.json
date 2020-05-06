@@ -7,6 +7,7 @@
     "dev": "next ./src",
     "build": "next build ./src",
     "start": "next start ./src",
+    "export": "npm run build && next export ./src",
     "format": "prettier --write . '**/*.{ts,js,md,yaml,json}'",
     "format:check": "prettier --check . '**/*.{ts,js,md,yaml,json}'",
     "lint": "eslint src"
